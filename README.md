@@ -29,7 +29,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/ваш-ник/picpac.git
+git clone https://github.com/migrenybivaet/picpac.git
 cd picpac
 flutter pub get
 flutter run
