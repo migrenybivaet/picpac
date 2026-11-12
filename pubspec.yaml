@@ -1,0 +1,22 @@
+name: picpac_prototype
+description: Educational Android photo printing prototype
+publish_to: 'none'
+version: 0.14.0+14
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.0
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mock_api/catalog.json

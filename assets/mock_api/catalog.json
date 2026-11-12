@@ -1,0 +1,67 @@
+{
+  "api": "picpac-mock/v1",
+  "currency": "BYN",
+  "updatedAt": "2026-09-02T09:00:00+03:00",
+  "products": [
+    {
+      "id": "classic",
+      "title": "Фотокнига Classic",
+      "description": "Книжная обложка и ламинированные страницы",
+      "priceKopecks": 8100,
+      "icon": "book",
+      "color": "peach",
+      "leadMinDays": 6,
+      "leadMaxDays": 8,
+      "formats": ["20 × 20 см", "21 × 30 см", "25 × 25 см"],
+      "pageOptions": ["10 разворотов", "15 разворотов", "20 разворотов"]
+    },
+    {
+      "id": "photo",
+      "title": "Фотопечать",
+      "description": "Фотохимическая печать на фотобумаге",
+      "priceKopecks": 130,
+      "icon": "photo",
+      "color": "blue",
+      "leadMinDays": 1,
+      "leadMaxDays": 2,
+      "formats": ["10 × 15 см", "15 × 20 см", "20 × 30 см"],
+      "pageOptions": []
+    },
+    {
+      "id": "lite",
+      "title": "Фотокнига Lite",
+      "description": "Твёрдая обложка и гибкие страницы",
+      "priceKopecks": 7000,
+      "icon": "book",
+      "color": "mint",
+      "leadMinDays": 5,
+      "leadMaxDays": 7,
+      "formats": ["20 × 20 см", "25 × 25 см", "21 × 30 см"],
+      "pageOptions": ["24 страницы", "32 страницы", "40 страниц"]
+    },
+    {
+      "id": "premium",
+      "title": "Фотокнига Premium",
+      "description": "Твёрдая обложка, матовая фотобумага",
+      "priceKopecks": 10050,
+      "icon": "book",
+      "color": "pink",
+      "leadMinDays": 7,
+      "leadMaxDays": 10,
+      "formats": ["20 × 20 см", "21 × 30 см", "25 × 25 см", "30 × 20 см", "30 × 30 см"],
+      "pageOptions": ["5 разворотов", "10 разворотов", "15 разворотов"]
+    },
+    {
+      "id": "digital",
+      "title": "Цифровая фотопечать",
+      "description": "Цифровая печать фотографий",
+      "priceKopecks": 61,
+      "icon": "library",
+      "color": "lilac",
+      "leadMinDays": 1,
+      "leadMaxDays": 2,
+      "formats": ["10 × 15 см", "15 × 20 см", "20 × 30 см"],
+      "pageOptions": []
+    }
+  ]
+}
